@@ -1,12 +1,12 @@
 
-#To list all KEY VALUE pairs paste the following command in terminal
+# To list all KEY VALUE pairs paste the following command in terminal
 
 $ curl -H “Accept: application/json” http://127.0.0.1:8000/get
 
 
 
 
-#To get the value of a particular KEY paste the following command in terminal
+# To get the value of a particular KEY paste the following command in terminal
 
 $ curl -X GET -H "Content-type:application/json" --data "{\"key\":\"Key name\"}" http://127.0.0.1:8000/get/key
 
@@ -17,7 +17,7 @@ $ curl -X GET -H "Content-type:application/json" --data "{\"key\":\"xyz\"}" http
 
 
 
-#To set a new pair of KEY-VALUE pair paste the following command in the terminal
+# To set a new pair of KEY-VALUE pair paste the following command in the terminal
 
 $ curl -X GET -H "Content-type:application/json" --data "{\"key\":\"Key name\",\"value\":\"Value of the key\"}" http://127.0.0.1:8000/set/key
 
