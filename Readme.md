@@ -2,7 +2,7 @@
 
 ```
 $ git clone https://github.com/RKG111/Key-Value-Store.git
-$ cd myapi
+$ cd Key-Value-Store
 ```
 
 #### Installation of dependencies
