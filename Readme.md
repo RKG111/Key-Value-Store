@@ -22,7 +22,8 @@ $ python manage.py runserver
 #### To list all KEY VALUE pairs paste the following command in terminal
 
 $ curl -H “Accept: application/json” http://127.0.0.1:8000/get
-````
+
+
 
 
 #### To get the value of a particular KEY paste the following command in terminal
@@ -32,7 +33,7 @@ $ curl -X GET -H "Content-type:application/json" --data "{\"key\":\"Key name\"}"
 eg: to get the value of KEY= "xyz" type
 
 $ curl -X GET -H "Content-type:application/json" --data "{\"key\":\"xyz\"}" http://127.0.0.1:8000/get/key
-````
+
 
 #### To set a new pair of KEY-VALUE pair paste the following command in the terminal
 
